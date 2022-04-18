@@ -1,0 +1,82 @@
+.about-section{
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
+.about-list__decor-item {
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.8),
+    rgba(47, 48, 58, 0.8)
+  );
+}
+
+.description__text-one {
+  position: absolute;
+  bottom: 27px;
+  left: 82px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.description__text-two {
+  position: absolute;
+  bottom: 27px;
+  left: 85px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.description__text-three {
+  position: absolute;
+  bottom: 27px;
+  left: 90px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.about-list__item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+
+.about-us__title,
+.our-team__title {
+  color: var(--primary-color-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+

@@ -8,8 +8,10 @@
 }
 
 .footer-container {
+  @include desktop{
   display: flex;
   align-items: baseline;
+  }
 }
 
 .footer-join-us {
@@ -24,8 +26,8 @@
 }
 
 .footer-socials {
-  margin-left: 70px;
-  flex-direction: column;
+    margin-left: 70px;
+    flex-direction: column;
 }
 
 .footer-social-list {
@@ -63,9 +65,12 @@
 }
 
 .footer-subscribe {
+  @include desktop{
   display: flex;
   align-items: baseline;
   margin-left: auto;
+  }
+
 }
 
 .footer-subscribe__text {

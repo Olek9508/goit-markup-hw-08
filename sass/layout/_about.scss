@@ -1,6 +1,10 @@
 .about-section{
   padding-top: 47px;
   padding-bottom: 94px;
+  display: none;
+    @include desktop {
+    display: block;
+    }
 }
 
 .about-list__decor-item {

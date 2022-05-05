@@ -9,18 +9,46 @@
     margin-bottom: 50px;
 }
 
+
 .our-clients-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -30px;
+    margin-bottom: -30px;
 }
 
 .our-clients__item {
     width: 170px;
     height: 92px;
-
-    &:not(:first-child) {
+    margin-bottom: 30px;
+        @include tel {
+            flex-basis: calc(100% / 2 - 30px);
+            margin-left: 30px;
+        
+            &:not(:first-child) {
+                margin-left: 30px;
+            }
+        }
+    @include tablet {
+        flex-basis: calc(100% / 3 - 30px);
         margin-left: 30px;
+            &:not(:first-child) {
+                margin-left: 30px;
+            }
     }
-}
+    
+    @include desktop {
+        flex-basis: calc(100% / 6 - 30px);
+        margin-left: 30px;
+            &:not(:first-child) {
+                margin-left: 30px;
+            }
+    }
+    }
+
+
+
 
 .our-clients__link {
     display: flex;

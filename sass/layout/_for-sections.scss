@@ -1,5 +1,13 @@
 .team-section,
 .clients-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: auto;
+  padding-left: auto;
+
+  @include desktop {
+      padding-top: 94px;
+      padding-bottom: 94px;
+  }
 }
+

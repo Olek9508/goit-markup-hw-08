@@ -913,11 +913,19 @@ body {
 
 .hero__container {
   width: 100%;
+  height: 164px;
   padding: 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .hero__container {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 .overlay {
-  height: 600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--hero-background-color);
@@ -968,7 +976,7 @@ body {
 .hero__title {
   color: var(--hero-text-color);
   font-weight: 900;
-  font-size: 42px;
+  font-size: 26px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.06em;
@@ -980,8 +988,16 @@ body {
 
 @media screen and (min-width: 1200px) {
   .hero__title {
+    color: var(--hero-text-color);
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

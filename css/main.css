@@ -882,24 +882,41 @@ body {
 
 .hero-section {
   text-align: center;
+  width: 480px;
   padding-top: 118px;
   padding-bottom: 118px;
   padding-left: 60px;
   padding-right: 60px;
 }
 
+@media screen and (min-width: 480px) {
+  .hero-section {
+    text-align: center;
+    width: 768px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    padding-left: 204px;
+    padding-right: 204px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .hero-section {
-    width: 696px;
+    text-align: center;
+    width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 452px;
+    padding-right: 452px;
   }
 }
 
 .hero__container {
   width: 100%;
+  padding: 0;
 }
 
 .overlay {
-  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -932,6 +949,11 @@ body {
 
 @media screen and (min-width: 1200px) {
   .overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--hero-background-color);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   }

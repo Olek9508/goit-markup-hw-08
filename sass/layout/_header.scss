@@ -78,11 +78,6 @@
   margin-left: 30px;
 }
 
-.mob-menu__container{
-  position: relative;
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
 
 .mob-menu{
 position: fixed;
@@ -219,9 +214,14 @@ pointer-events: auto;
 margin-left: 20px;
 }
 
+.mob-menu-social__item{
+  &:not(:last-child){
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+  }
+}
+
 .mob-menu-social__link{
 position: relative;
-padding-left: 10px;
 text-decoration: none;
 font-style: normal;
 font-weight: 500;
@@ -229,5 +229,4 @@ font-size: 18px;
 line-height: 1.22;
 letter-spacing: 0.02em;
 color: #2196F3;
-border-right: 1px solid rgba(33, 33, 33, 0.2);
 }

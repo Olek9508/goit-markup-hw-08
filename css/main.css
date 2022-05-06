@@ -711,12 +711,6 @@ body {
   margin-left: 30px;
 }
 
-.mob-menu__container {
-  position: relative;
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
 .mob-menu {
   position: fixed;
   background-color: #fff;
@@ -861,9 +855,12 @@ body {
   margin-left: 20px;
 }
 
+.mob-menu-social__item:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
 .mob-menu-social__link {
   position: relative;
-  padding-left: 10px;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -871,22 +868,21 @@ body {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196F3;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .hero-section {
   text-align: center;
-  width: 480px;
+  width: 100vw;
   padding-top: 118px;
   padding-bottom: 118px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 @media screen and (min-width: 480px) {
   .hero-section {
     text-align: center;
-    width: 768px;
+    width: 780px;
     padding-top: 118px;
     padding-bottom: 118px;
     padding-left: 204px;
@@ -906,8 +902,19 @@ body {
 }
 
 .hero__container {
-  width: 100%;
-  padding: 0;
+  width: 100vw;
+}
+
+@media screen and (min-width: 480px) {
+  .hero__container {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__container {
+    width: 696px;
+  }
 }
 
 .overlay {
@@ -1807,25 +1814,21 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: -30px;
-  margin-bottom: -30px;
+  margin-left: auto;
+  margin-bottom: auto;
 }
 
 .our-clients__item {
   width: 170px;
   height: 92px;
   margin-bottom: 30px;
+  -ms-flex-preferred-size: calc(100% / 2 - 30px);
+      flex-basis: calc(100% / 2 - 30px);
+  margin-left: 30px;
 }
 
-@media screen and (min-width: 480px) {
-  .our-clients__item {
-    -ms-flex-preferred-size: calc(100% / 2 - 30px);
-        flex-basis: calc(100% / 2 - 30px);
-    margin-left: 30px;
-  }
-  .our-clients__item:not(:first-child) {
-    margin-left: 30px;
-  }
+.our-clients__item:not(:first-child) {
+  margin-left: 30px;
 }
 
 @media screen and (min-width: 480px) {

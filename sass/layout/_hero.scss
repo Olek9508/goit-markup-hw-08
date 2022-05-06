@@ -1,14 +1,14 @@
 .hero-section {
     text-align: center;
-    width: 480px;
+    width: 100vw;
     padding-top: 118px;
     padding-bottom: 118px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: auto;
+    padding-right: auto;
 
     @include tablet {
       text-align: center;
-      width: 768px;
+      width: 780px;
       padding-top: 118px;
       padding-bottom: 118px;
       padding-left: 204px;
@@ -26,8 +26,13 @@
 }
 
 .hero__container{
-    width: 100%;
-    padding: 0;
+    width: 100vw;
+    @include tablet {
+      width: 360px;
+    }
+    @include desktop {
+      width: 696px;
+    }
 }
 
 .overlay {

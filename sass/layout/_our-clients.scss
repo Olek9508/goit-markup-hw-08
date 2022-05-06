@@ -14,22 +14,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: -30px;
-    margin-bottom: -30px;
+    margin-left: auto;
+    margin-bottom: auto;
 }
 
 .our-clients__item {
     width: 170px;
     height: 92px;
     margin-bottom: 30px;
-        @include tel {
-            flex-basis: calc(100% / 2 - 30px);
-            margin-left: 30px;
-        
-            &:not(:first-child) {
-                margin-left: 30px;
-            }
-        }
+    flex-basis: calc(100% / 2 - 30px);
+    margin-left: 30px;
+
+    &:not(:first-child) {
+        margin-left: 30px;
+    }
     @include tablet {
         flex-basis: calc(100% / 3 - 30px);
         margin-left: 30px;

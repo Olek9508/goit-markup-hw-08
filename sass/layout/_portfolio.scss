@@ -1,12 +1,15 @@
 .portfolio-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include desktop{
   padding-top: 94px;
   padding-bottom: 94px;
+  }
 }
 
 .buttons-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 60px;
   @include tablet{
   display: flex;
   align-items: center;

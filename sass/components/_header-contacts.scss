@@ -5,7 +5,7 @@
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   display: flex;
   align-items: center;
   transition-property: color;
@@ -17,8 +17,15 @@
     outline: none;
   }
   @include tablet{
+    font-size: 12px;
+    line-height: 1.16;
     padding-top: 20px;
     margin-bottom: 10px;
+  }
+
+  @include desktop{
+    font-size: 12px;
+    line-height: 1.14;
   }
 }
 
@@ -40,9 +47,14 @@
     outline: none;
   }
     @include tablet{
-      padding-bottom: 20px;
+      font-size: 12px;
+      line-height: 1.16;
+      padding-bottom: 21px;
+      font-size: 12px;
     }
   @include desktop{
+  font-size: 12px;
+  line-height: 1.14;
   padding-top: 32px;
   padding-bottom: 32px;
   }

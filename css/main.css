@@ -65,7 +65,7 @@ body {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,8 +87,17 @@ body {
 
 @media screen and (min-width: 767.98px) {
   .adress__mail {
+    font-size: 12px;
+    line-height: 1.16;
     padding-top: 20px;
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1199.98px) {
+  .adress__mail {
+    font-size: 12px;
+    line-height: 1.14;
   }
 }
 
@@ -120,12 +129,17 @@ body {
 
 @media screen and (min-width: 767.98px) {
   .adress__phone {
-    padding-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.16;
+    padding-bottom: 21px;
+    font-size: 12px;
   }
 }
 
 @media screen and (min-width: 1199.98px) {
   .adress__phone {
+    font-size: 12px;
+    line-height: 1.14;
     padding-top: 32px;
     padding-bottom: 32px;
   }
@@ -225,19 +239,19 @@ body {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 450px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 738px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    width: 1170px;
   }
 }
 
@@ -311,7 +325,6 @@ body {
 
 .modal {
   position: absolute;
-  width: 100%;
   max-height: 609px;
   padding: 40px;
   top: 50%;
@@ -331,6 +344,12 @@ body {
   background-color: #fff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 479px) {
+  .modal {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -942,6 +961,7 @@ body {
 
 @media screen and (min-width: 767.98px) {
   .overlay {
+    width: 100%;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-img-tab.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img-tab.jpg);
   }
@@ -1602,8 +1622,15 @@ body {
 }
 
 .portfolio-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1199.98px) {
+  .portfolio-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .buttons-list {
@@ -1612,7 +1639,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 60px;
 }
 
 @media screen and (min-width: 767.98px) {

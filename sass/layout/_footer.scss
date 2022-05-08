@@ -43,6 +43,8 @@
 
 .footer-socials {
   @include desktop{
+    display: flex;
+    align-items: flex-start;
     margin-left: 70px;
     flex-direction: column;
   }

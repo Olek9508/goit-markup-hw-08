@@ -119,7 +119,7 @@ body {
 }
 
 @media screen and (min-width: 767.98px) {
-  .adress__phone:hover, .adress__phone:focus {
+  .adress__phone {
     padding-bottom: 20px;
   }
 }

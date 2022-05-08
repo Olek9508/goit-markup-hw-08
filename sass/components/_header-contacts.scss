@@ -1,3 +1,4 @@
+
 .adress__mail {
   text-decoration: none;
   letter-spacing: 0.02em;
@@ -5,8 +6,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: flex;
   align-items: center;
   transition-property: color;
@@ -17,6 +16,10 @@
     color: var(--ineractive-color);
     outline: none;
   }
+  @include tablet{
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
 }
 
 .adress__phone {
@@ -26,8 +29,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: flex;
   align-items: center;
   transition-property: color;
@@ -37,6 +38,13 @@
   &:focus {
     color: var(--ineractive-color);
     outline: none;
+    @include tablet{
+      padding-bottom: 20px;
+    }
+  }
+  @include desktop{
+  padding-top: 32px;
+  padding-bottom: 32px;
   }
 }
 

@@ -6,6 +6,7 @@
 .buttons-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 60px;
   @include tablet{
   display: flex;
   align-items: center;

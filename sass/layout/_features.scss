@@ -40,13 +40,17 @@
 }
 
 .features-list__title {
+  text-align: center;
   color: var(--active-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
+  @include tablet{
+    text-align: start;
+  }
 }
 
 .features-list__text {

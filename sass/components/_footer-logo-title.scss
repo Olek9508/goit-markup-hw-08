@@ -3,10 +3,13 @@
   text-decoration: none;
   color: var(--ineractive-color);
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+  font-size: 24px;
+  line-height: 1.17;
   display: block;
   margin-bottom: 20px;
+  @include tablet{
+    font-size: 26px;
+  }
 }
 
 .footer-adress__logo--white-color {
@@ -14,6 +17,9 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-decoration: none;
-  font-size: 26px;
-  line-height: 1.2;
+  font-size: 24px;
+  line-height: 1.17;
+  @include tablet{
+    font-size: 26px;
+  }
 }

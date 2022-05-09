@@ -1,6 +1,6 @@
 .hero-section {
     text-align: center;
-    width: 100vw;
+    width: 450px;
     padding-top: 118px;
     padding-bottom: 118px;
     
@@ -20,7 +20,7 @@
 }
 
 .hero__container{
-    width: 100vw;
+    width: 100%;
     @include tablet {
       width: 360px;
     }

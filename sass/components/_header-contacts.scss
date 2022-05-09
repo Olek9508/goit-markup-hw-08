@@ -19,13 +19,16 @@
   @include tablet{
     font-size: 12px;
     line-height: 1.16;
-    padding-top: 20px;
+    padding-top: 21px;
     margin-bottom: 10px;
   }
 
   @include desktop{
     font-size: 12px;
     line-height: 1.14;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 0;
   }
 }
 

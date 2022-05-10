@@ -177,11 +177,15 @@ pointer-events: auto;
   justify-content: space-between;
 }
 
-// .mob-adress__item{
-//   &:not(:last-child) {
-//     margin-bottom: 32px;
-//   }
-// }
+.mob-adress{
+  margin-bottom: 64px;
+}
+
+.mob-adress__item{
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
 
 
 .mob-adress__phone {

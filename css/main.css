@@ -556,10 +556,17 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-check {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal-check svg {
@@ -594,10 +601,17 @@ body {
 
 .checkbox-terms {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--ineractive-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .checkbox-terms {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .btn-div {

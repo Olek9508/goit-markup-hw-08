@@ -178,16 +178,19 @@ width: 450px;
   display: flex;
   align-items: center;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #757575;
+
+  @include desktop{
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal-check svg {
   display: inline-block;
-  // align-items: center;
-  // justify-content: center;
   margin-right: 9px;
   border: 2px solid var(--primary-color-text);
   border-radius: 2px;
@@ -216,10 +219,15 @@ width: 450px;
 
 .checkbox-terms {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--ineractive-color);
+
+  @include desktop{
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .btn-div {

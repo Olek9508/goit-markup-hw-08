@@ -16,8 +16,8 @@
 .navigation {
   display: none;
   @include tablet{
-  display: flex;
-  align-items: center;
+  display: block;
+  margin-left: 93px;
   }
 }
 
@@ -25,7 +25,6 @@
   display: none;
   @include tablet{
     display: flex;
-    margin-left: 93px;
   }
 }
 

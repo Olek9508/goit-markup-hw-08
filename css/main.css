@@ -1049,7 +1049,6 @@ body {
 }
 
 .hero__title {
-  width: 360px;
   color: var(--hero-text-color);
   font-weight: 900;
   font-size: 26px;
@@ -1062,8 +1061,15 @@ body {
   margin-right: auto;
 }
 
+@media screen and (min-width: 767.98px) {
+  .hero__title {
+    width: 360px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .hero__title {
+    width: 696px;
     font-size: 44px;
     line-height: 1.4;
   }

@@ -21,8 +21,6 @@
 
 .hero__container{
     width: 100%;
-    // margin-left: auto;
-    // margin-right: auto;
     @include tablet {
       width: 360px;
     }
@@ -89,7 +87,6 @@
 }
 
 .hero__title {
-  width: 360px;
   color: var(--hero-text-color);
   font-weight: 900;
   font-size: 26px;
@@ -101,7 +98,13 @@
   margin-left: auto;
   margin-right: auto;
 
+
+  @include tablet{
+    width: 360px;
+  }
+
   @include desktop{
+    width: 696px;
     font-size: 44px;
     line-height: 1.4;
   }

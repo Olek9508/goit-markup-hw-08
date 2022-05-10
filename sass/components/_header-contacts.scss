@@ -17,10 +17,9 @@
     outline: none;
   }
   @include tablet{
+    padding-top: 21px;
     font-size: 12px;
     line-height: 1.16;
-    padding-top: 21px;
-    margin-bottom: 10px;
   }
 
   @include desktop{
@@ -28,7 +27,6 @@
     line-height: 1.14;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-bottom: 0;
   }
 }
 
@@ -52,7 +50,7 @@
     @include tablet{
       font-size: 12px;
       line-height: 1.16;
-      padding-bottom: 21px;
+      padding-bottom: 20px;
       font-size: 12px;
     }
   @include desktop{

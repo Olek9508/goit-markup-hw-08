@@ -42,6 +42,7 @@
 }
 
 .footer-socials {
+  margin-bottom: 60px;
   @include desktop{
     display: flex;
     align-items: flex-start;
@@ -53,7 +54,6 @@
 .footer-social-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
 }
 
 .footer-social__item + .footer-social__item {

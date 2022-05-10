@@ -185,9 +185,9 @@ width: 450px;
 }
 
 .modal-check svg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
+  // align-items: center;
+  // justify-content: center;
   margin-right: 9px;
   border: 2px solid var(--primary-color-text);
   border-radius: 2px;

@@ -70,6 +70,22 @@
   }
 }
 
+.adress__item{
+  @include tablet{
+  &:not(:last-child){
+    margin-bottom: 10px;
+  }
+  }
+
+  @include desktop{
+    font-size: 12px;
+    line-height: 1.14;
+    &:not(:last-child){
+      margin-bottom: 0px;
+    }
+  }
+}
+
 .adress__item + .adress__item {
   @include desktop{
     margin-left: 30px;
@@ -155,12 +171,17 @@ pointer-events: auto;
   color: #212121;
 }
 
-
-.mob-adress__item{
-  &:not(:last-child) {
-    margin-bottom: 32px;
-  }
+.mob-menu__bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+// .mob-adress__item{
+//   &:not(:last-child) {
+//     margin-bottom: 32px;
+//   }
+// }
 
 
 .mob-adress__phone {

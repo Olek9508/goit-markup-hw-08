@@ -64,8 +64,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.17;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,15 +88,12 @@ body {
 @media screen and (min-width: 767.98px) {
   .adress__mail {
     padding-top: 21px;
-    font-size: 12px;
-    line-height: 1.16;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .adress__mail {
-    font-size: 12px;
-    line-height: 1.14;
+    font-size: 14px;
     padding-top: 32px;
     padding-bottom: 32px;
   }
@@ -107,8 +104,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: 12px;
+  line-height: 1.17;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,17 +127,13 @@ body {
 
 @media screen and (min-width: 767.98px) {
   .adress__phone {
-    font-size: 12px;
-    line-height: 1.16;
     padding-bottom: 20px;
-    font-size: 12px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .adress__phone {
-    font-size: 12px;
-    line-height: 1.14;
+    font-size: 14px;
     padding-top: 32px;
     padding-bottom: 32px;
   }

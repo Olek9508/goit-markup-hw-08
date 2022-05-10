@@ -4,8 +4,8 @@
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   transition-property: color;
@@ -18,13 +18,10 @@
   }
   @include tablet{
     padding-top: 21px;
-    font-size: 12px;
-    line-height: 1.16;
   }
 
-  @include desktop{
-    font-size: 12px;
-    line-height: 1.14;
+  @include desktop{  
+    font-size: 14px;
     padding-top: 32px;
     padding-bottom: 32px;
   }
@@ -35,8 +32,8 @@
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: 12px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   transition-property: color;
@@ -48,14 +45,10 @@
     outline: none;
   }
     @include tablet{
-      font-size: 12px;
-      line-height: 1.16;
       padding-bottom: 20px;
-      font-size: 12px;
     }
   @include desktop{
-  font-size: 12px;
-  line-height: 1.14;
+  font-size: 14px;
   padding-top: 32px;
   padding-bottom: 32px;
   }

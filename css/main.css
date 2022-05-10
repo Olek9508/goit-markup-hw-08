@@ -1063,16 +1063,8 @@ body {
 
 @media screen and (min-width: 1200px) {
   .hero__title {
-    color: var(--hero-text-color);
-    font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 

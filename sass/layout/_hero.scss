@@ -22,7 +22,7 @@
 .hero__container{
     width: 100%;
     @include tablet {
-      max-width: 360px;
+      width: 360px;
     }
     @include desktop {
       width: 696px;
